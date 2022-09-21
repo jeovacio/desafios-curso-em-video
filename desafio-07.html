@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="gato-polvo.ico" type="image/x-icon">
+    <title>Desafio da Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Se você estiver nesse momento acessando por um celular, provavelmente você estará vendo a imagem cortada, tente abrir em outro dispostivo para ter a experiência de ver a imagem completa</p>
+    <br>
+    <picture>
+        <source media="(min-width: 1200px )" srcset="paisagem-1(desafio-07).png" type="image/png">
+        <source media="(min-width: 700px )" srcset="paisagem-2(desafio-07).png" type="image/png">
+        <img src="paisagem-3(desafio-07).png" alt="essa é a imagem no seu tananho real">
+    </picture>
+    <h3>
+        <a href="desafio-08.html" target="_self" rel="prev">voltar</a>
+    </h3>
+    <!--Decidi usar o min-width, justamente por começar apresentando já a imagem pequena, caso a pessoa abra a página em um celular ou no navegador na forma pequena, a imagem grande só será mostrada se houver no mínimo 1200px na tela, já, que, ela possui 1200 px de tamanho. Enquanto a tela não chegar a esse tamanho, será a imagem tamanho médio que você verá-->  
+</body>
+</html>
